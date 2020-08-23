@@ -1,0 +1,51 @@
+@import '../ref-main/ref-main.component.scss';
+
+.wrapper {
+  .grid-main {
+    grid-template-columns: repeat(13, 1fr) !important;
+    grid-template-rows: repeat(9, 1fr) !important;
+
+    .brand {
+      grid-column: 2/6;
+      grid-row: 2;
+    }
+
+    .card-main {
+      grid-column: 2/12 !important;
+      grid-row: 2/9 !important;
+    }
+
+    .ref {
+      grid-column: 5/14 !important;
+      grid-row: 1/7 !important;
+      place-self: stretch;
+      // align-self: flex-start;
+      img {
+        height: 95% !important;
+      }
+    }
+
+    .details {
+      grid-column: 7/12;
+      grid-row: 7/9;
+    }
+
+    .vanchi {
+      grid-column: 2/7;
+      grid-row: 7/9;
+      align-self: flex-start;
+    }
+    .off {
+      grid-column: 1/4;
+      grid-row: 3/6;
+      padding-right: 15px;
+      align-self: flex-start;
+    }
+    .emi {
+      grid-column: 2/6;
+      grid-row: 5/7;
+      align-self: flex-end;
+    }
+  }
+
+}

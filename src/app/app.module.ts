@@ -11,6 +11,7 @@ import { RefMainComponent } from './ref-main/ref-main.component';
 import { TvMainComponent } from './tv-main/tv-main.component';
 import { LaptopMainComponent } from './laptop-main/laptop-main.component';
 import { WashingmachineMainComponent } from './washingmachine-main/washingmachine-main.component';
+import { MobileMainComponent } from './mobile-main/mobile-main.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { WashingmachineMainComponent } from './washingmachine-main/washingmachin
     RefMainComponent,
     TvMainComponent,
     LaptopMainComponent,
-    WashingmachineMainComponent
+    WashingmachineMainComponent,
+    MobileMainComponent
   ],
   imports: [
     BrowserModule,

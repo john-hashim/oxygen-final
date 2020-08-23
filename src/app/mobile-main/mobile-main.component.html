@@ -1,0 +1,35 @@
+<div class="wrapper" >
+  <div class="grid-main" *ngFor="let mob of mobiles">
+
+    <div class="card-main">
+    </div>
+
+    <div class="brand">
+      <img src="../assets/samsung-white-logo.png" alt="">
+    </div>
+
+    <div class="details">
+      <p class="ltr">198 LTR 4 STAR</p>
+      <p class="door">DOUBLE DOOR</p>
+    </div>
+
+    <div class="vanchi">
+      <img src="../assets/toppng.com-onam-265x390.png" alt="">
+    </div>
+
+    <div class="ref">
+      <img [src]="mob.img" alt="">
+    </div>
+
+    <div class="emi">
+      <p class="emiat">EMI AT</p>
+      <p class="rs">{{mob.emi}}</p>
+    </div>
+
+    <div class="off">
+      <img src="../assets/noun_Badge_94994.svg" alt="">
+    </div>
+
+  </div>
+
+</div>
