@@ -49,11 +49,23 @@
         grid-column: 1/4;
         grid-row:4/7 ;
         padding-right: 15px;
-        img{
-          height: 59px;
-          width: 59px;
-        }
+        background-image: url(../../assets/noun_Badge_94994.svg);
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 100%;
        }
+       .off_value{
+        grid-column: 1/4;
+        grid-row:4/7 ;
+        padding-bottom: 18px;
+        font-size: 15px;
+        font-weight: 700;
+        color: white;
+        background-repeat: no-repeat;
+        background-size: 100%;
+       }
+
        .emi{
          grid-column: 2/6;
          grid-row:8/10 ;
@@ -68,7 +80,10 @@
        }
        .ref{
         grid-column: 7/12;
-        grid-row:1/11 ;
+        grid-row:1/10 ;
+        box-shadow: 0 10px 10px rgba(0,0,0,0.80); 
+        height: 250px;
+        width: 100px;
        }
 
     }
@@ -84,9 +99,11 @@ img{
 @media (max-width: 700px) {
   .wrapper{
     .grid-main{
-      .details{
-        padding-top: 20px;
-      }
+      .off_value{
+        padding-bottom: 25px;
+       }
     }
   }
 }
+
+

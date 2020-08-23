@@ -1,0 +1,45 @@
+@import '../ref-main/ref-main.component.scss';
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-auto-rows: 300px;
+    .grid-main {
+       .details{
+        grid-column: 6/13;  
+        grid-row:10/14 ;      
+        text-align: right;
+          .spec{
+            font-size: 14px;
+            font-weight: 700;
+          }  
+       }
+       .off{
+        grid-column: 1/4;
+        grid-row:4/7 ;
+        padding-right: 15px;
+        background-image: url(../../assets/noun_Badge_94994.svg);
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+       }
+       .off_value{
+        grid-column: 1/4;
+        grid-row:4/7 ;
+        padding-top: 25px;
+        font-size: 15px;
+        font-weight: 700;
+        color: white;
+        background-repeat: no-repeat;
+        background-size: 100%;
+       }
+       .wm{                  
+        grid-column: 7/15;        
+        grid-row:4/8 ;  
+        height: 200px;
+        width: 135px;
+       }
+
+    }
+
+}  

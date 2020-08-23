@@ -1,1 +1,36 @@
-<p>washingmachine-main works!</p>
+<div class="wrapper">
+    <div class="grid-main" *ngFor="let w of wm">
+  
+      <div class="card-main">
+      </div>
+  
+      <div class="brand">
+        <img [src]="w.brand" alt="">
+      </div>
+  
+      <div class="details">
+        <p class="spec">{{ w.details }}</p>
+      </div>
+  
+      <div class="vanchi">
+        <img src="../assets/toppng.com-onam-265x390.png" alt="">
+      </div>
+  
+      <div class="wm">
+        <img [src]="w.img" alt="">
+      </div>
+  
+      <div class="emi">
+        <p class="emiat">EMI AT</p>
+        <p class="rs">&#8377;{{w.emi}}</p>
+      </div>
+      <div class="off">
+      </div>
+      <div class="off_value">
+         <p>{{ w.offer}} <br>OFF</p>
+      </div>
+
+  
+    </div>
+  
+  </div>

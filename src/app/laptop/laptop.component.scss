@@ -5,8 +5,6 @@
 .wrapper {
     padding: 3em;
     display: grid;
-    // grid-template-columns: 280px;                                //280px
-    // grid-auto-rows: 300px;                                       //300px
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     grid-auto-rows: 300px;
     grid-gap: 2em 2.5em;
@@ -81,7 +79,7 @@
        }
        .laptop{
         grid-column: 4/15;   
-        grid-row:1/9 ;     
+        grid-row:1/9 ;    
         // box-shadow: 0 10px 10px rgba(0,0,0,0.22); 
        }
 

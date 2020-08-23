@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { LaptopComponent } from './laptop/laptop.component';
 import { AcComponent } from './ac/ac.component';
 import { TvComponent } from './tv/tv.component';
-import { WashingmachineComponent } from './washingmachine/washingmachine.component';
 import { RefMainComponent } from './ref-main/ref-main.component';
 import { TvMainComponent } from './tv-main/tv-main.component';
 import { LaptopMainComponent } from './laptop-main/laptop-main.component';
@@ -18,7 +17,6 @@ import { WashingmachineMainComponent } from './washingmachine-main/washingmachin
     LaptopComponent,
     AcComponent,
     TvComponent,
-    WashingmachineComponent,
     RefMainComponent,
     TvMainComponent,
     LaptopMainComponent,

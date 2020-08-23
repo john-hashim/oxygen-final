@@ -5,12 +5,12 @@
       </div>
   
       <div class="brand">
-        <img src="../assets/samsung-white-logo.png" alt="">
+        <img [src]="ref.brand" alt="">
       </div>
   
       <div class="details">
-        <p class="ltr">198 LTR 4 STAR</p>
-        <p class="door">DOUBLE DOOR</p>
+        <p class="ltr">{{ ref.ltr }}</p>
+        <p class="door">{{ ref.cat }}</p>
       </div>
   
       <div class="vanchi">
@@ -23,11 +23,14 @@
   
       <div class="emi">
         <p class="emiat">EMI AT</p>
-        <p class="rs">{{ref.emi}}</p>
+        <p class="rs">&#8377;{{ref.emi}}</p>
       </div>
   
       <div class="off">
-        <img src="../assets/noun_Badge_94994.svg" alt="">
+      
+      </div>
+      <div class="off_value">
+        <p>{{ ref.discount}} <br>OFF</p>
       </div>
   
     </div>
