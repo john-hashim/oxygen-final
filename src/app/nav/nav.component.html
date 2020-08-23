@@ -1,0 +1,15 @@
+<div class="wrapper">
+  <nav>
+    <ul class="link-row-1">
+      <li *ngFor= "let link of linkRow1">
+        <a [routerLink]="link.url">{{ link.name }}</a>
+      </li>
+    </ul>
+    <ul class="link-row-2">
+      <li *ngFor= "let link of linkRow2">
+        <a [routerLink]="link.url">{{ link.name }}</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
