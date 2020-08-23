@@ -1,0 +1,24 @@
+@import '../ac/ac.component.scss';
+
+.wrapper {
+    .grid-main {
+        .details{                
+            grid-row:9/14 ;          
+            .p1{                   
+                padding: 5px;
+            }                       
+           .p2{                  
+               padding: 6px;
+            }                       
+            .p3{          
+               padding: 5px;                
+            }
+       }
+       .tv{                    
+        grid-column: 5/15;    
+        grid-row:2/9 ;        
+        box-shadow: (0, 0, 0, 0.35)
+       }                       
+
+    }
+}

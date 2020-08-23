@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "oxygen"
+    }
+  },
+  "defaultProject": "oxygen",
+  "cli": {
+    "analytics": "4774453e-4316-4eba-a879-c939c21712dd"
+  }
 }

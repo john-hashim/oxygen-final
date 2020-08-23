@@ -1,0 +1,44 @@
+@import '../laptop/laptop.component.scss';
+
+.wrapper {
+    grid-template-columns:350px;  
+    grid-auto-rows: 250px;  
+    .grid-main {
+        .brand{
+            grid-column: 2/6;     
+         }
+        .details{                
+            grid-column: 7/13;             
+            text-align: right;         
+            .p1{                   
+                font-size: 10px;      
+                font-weight:100 ;   
+            }                       
+           .p2{                  
+               font-size: 12px;     
+               font-weight:700 ;   
+               border-style: solid; 
+               border-color: white; 
+               border-width: 1px;
+               padding: 6px;
+            }                       
+            .p3{                     
+               font-size: 14px;       
+               font-weight:700 ;     
+            }
+       }
+       .vanchi{
+        grid-column: 2/6;     
+       }
+       .emi{
+         grid-column: 2/5;    
+       }
+       .ac{                    
+        grid-column: 4/15;    
+        grid-row:1/9 ;        
+        box-shadow: (0, 0, 0, 0.35);
+        // box-shadow: 0 5px 5px rgba(0,0,0,0.22); 
+       }                       
+
+    }
+}
